@@ -17,7 +17,7 @@ function App() {
                     <Route path="/home" element={<Home />} />
                     <Route path="/categorias" element={<h1>Categorias</h1>} />
                     <Route path="/cadastrarcategorias" element={<h1>Cadastar categorias</h1>} />
-                    <Route path="/produtos" element={<h1>Produtos</h1>} />
+                    <Route path="/produtos" element={<h1>Em breve</h1>} />
               </Routes>
           </div>
           <Footer />

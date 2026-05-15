@@ -31,7 +31,15 @@ function Navbar(){
                   className="p-2 rounded-full hover:bg-red-100 hover:text-[#00899C] transition"
                   >Categorias
                 </Link>
-            </div>            
+            </div>  
+
+            <div className=" rounded-4xl text-white border-[#00899C] border-solid border-2 py-2  align-middle">
+                <Link 
+                  to="/cadastrarcategorias" 
+                  className="p-2 rounded-full hover:bg-red-100 hover:text-[#00899C] transition"
+                  > Cadastrar Categorias
+                </Link>
+            </div>                       
           </div>
         </div>  
       </div>    

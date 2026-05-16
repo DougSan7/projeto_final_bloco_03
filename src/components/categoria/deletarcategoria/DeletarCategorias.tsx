@@ -49,7 +49,7 @@ function DeletarCategoria() {
     return (
         <div className="container w-1/3 mx-auto my-8">
 
-            <h1 className="text-4xl text-center text-red-600 font-bold">
+            <h1 className="text-4xl text-center text-[#00222B] font-bold">
                 Deletar Categoria
             </h1>
 
@@ -60,7 +60,7 @@ function DeletarCategoria() {
             <div className="border border-red-300 rounded-2xl overflow-hidden shadow-md bg-white">
 
                 <div className="p-4">
-                    <h3 className="text-xl font-bold text-red-600">
+                    <h3 className="text-xl font-bold text-[#8FC105]">
                         {categoria.nome}
                     </h3>
 
@@ -71,13 +71,6 @@ function DeletarCategoria() {
 
                 <div className="flex">
                     <button
-                        className="w-full text-white bg-gray-500 hover:bg-gray-600 flex items-center justify-center py-3 transition"
-                        onClick={retornar}
-                    >
-                        Não
-                    </button>
-
-                    <button
                         className="w-full text-white bg-red-600 hover:bg-red-700 flex items-center justify-center py-3 transition"
                         onClick={deletarCategoria}
                     >
@@ -86,6 +79,13 @@ function DeletarCategoria() {
                         ) : (
                             <span>Sim</span>
                         )}
+                    </button>
+
+                    <button
+                        className="w-full text-white bg-gray-500 hover:bg-gray-600 flex items-center justify-center py-3 transition"
+                        onClick={retornar}
+                    >
+                        Não
                     </button>
                 </div>
             </div>
